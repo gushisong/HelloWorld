@@ -35,3 +35,12 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
+
+
+test {
+	useJUnit{
+		includeCategories 'com.oracle.peoplesoft.bass2.qe.test.AddPencilsTest'
+		excludeCategories 'com.oracle.peoplesoft.bass2.qe.test.PrepareMyBagTest'
+	}
+
+}
