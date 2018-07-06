@@ -24,65 +24,65 @@ import junit.framework.Assert;
  */
 public class TestCase {
 	
-	private static WebDriver driver;
-
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-		
-		driver=Utils.getDriver(Constants.BASS2_URL);
-	}
-
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@After
-	public void tearDown() throws Exception {
-	}
-
-	@Test
-	public void testCase1() {
-		//fail("Not yet implemented");
-	}
-	@Test
-	@Ignore
-	public void testCase2() {
-		
-	}
-	@Test
-	public void testCase3() {
-		String obj1="Junit";
-		String obj2="Junit";
-		assertEquals(obj1, obj2);
-		
-	}
-	@Test
-	public void testCase4() {
-		
-		assertNotNull(driver);
-		
-	}
-	
-	public void testCase5() {
-		
-	}
-	
-	
+//	private static WebDriver driver;
+//
+//	/**
+//	 * @throws java.lang.Exception
+//	 */
+//	@BeforeClass
+//	public static void setUpBeforeClass() throws Exception {
+//		
+//		driver=Utils.getDriver(Constants.BASS2_URL);
+//	}
+//
+//	/**
+//	 * @throws java.lang.Exception
+//	 */
+//	@AfterClass
+//	public static void tearDownAfterClass() throws Exception {
+//	}
+//
+//	/**
+//	 * @throws java.lang.Exception
+//	 */
+//	@Before
+//	public void setUp() throws Exception {
+//	}
+//
+//	/**
+//	 * @throws java.lang.Exception
+//	 */
+//	@After
+//	public void tearDown() throws Exception {
+//	}
+//
+//	@Test
+//	public void testCase1() {
+//		//fail("Not yet implemented");
+//	}
+//	@Test
+//	@Ignore
+//	public void testCase2() {
+//		
+//	}
+//	@Test
+//	public void testCase3() {
+//		String obj1="Junit";
+//		String obj2="Junit";
+//		assertEquals(obj1, obj2);
+//		
+//	}
+//	@Test
+//	public void testCase4() {
+//		
+//		assertNotNull(driver);
+//		
+//	}
+//	
+//	public void testCase5() {
+//		
+//	}
+//	
+//	
 
 }
