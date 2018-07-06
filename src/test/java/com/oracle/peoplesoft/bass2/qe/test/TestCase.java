@@ -9,11 +9,14 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
 import com.oracle.peoplesoft.bass2.qe.utility.Constants;
 import com.oracle.peoplesoft.bass2.qe.utility.Utils;
+
+import junit.framework.Assert;
 
 /**
  * @author xiaolson
@@ -54,8 +57,32 @@ public class TestCase {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testCase1() {
+		//fail("Not yet implemented");
 	}
+	@Test
+	@Ignore
+	public void testCase2() {
+		
+	}
+	@Test
+	public void testCase3() {
+		String obj1="Junit";
+		String obj2="Junit";
+		assertEquals(obj1, obj2);
+		
+	}
+	@Test
+	public void testCase4() {
+		
+		assertNotNull(driver);
+		
+	}
+	
+	public void testCase5() {
+		
+	}
+	
+	
 
 }
